@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.felight.myapp.InstagrahmClone"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/tamana"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:id="@+id/ivResult"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:padding="10dp">
+
+        <ImageView
+            android:onClick="applyFilter"
+            android:padding="5dp"
+            android:src="@drawable/insta_effect"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/ivGrayscaleEffet"/>
+
+        <ImageView
+            android:padding="5dp"
+            android:src="@drawable/insta_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivSophiaEffet"/>
+
+        <ImageView
+            android:padding="5dp"
+            android:src="@drawable/insta_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivBlurEffet"/>
+
+        <ImageView
+            android:padding="5dp"
+            android:src="@drawable/insta_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivXyzEffet"/>
+
+        <ImageView
+            android:padding="5dp"
+            android:src="@drawable/insta_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivAbcEffet"/>
+    </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

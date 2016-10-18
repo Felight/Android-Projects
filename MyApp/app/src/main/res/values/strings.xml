@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MyApp</string>
     <string name="calc_title">My Amazing Calculator</string>
+    <string name="title_activity_sample">SampleActivity</string>
 </resources>
